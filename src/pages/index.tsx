@@ -1,8 +1,8 @@
 import dynamic from "next/dynamic";
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
+import styles from "../../styles/Home.module.css";
 
-const DynamicComponent = dynamic(() => import("../components/hello"));
+const DynamicComponent = dynamic(() => import("../../components/hello"));
 
 export default function Home() {
   return (
